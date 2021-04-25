@@ -1,0 +1,73 @@
+/* Colors and fonts */
+
+body {
+background-color: rgb(240, 248, 252);
+color: black;
+font-family: serif;
+font-size: 28px;
+text-align: center;
+}
+
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(52, 115, 173);
+}
+
+a:hover{ 
+	color: rgb(22, 58, 92) ;
+	font-weight:bolder;}
+
+
+div{background: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+	border-radius: 4px;}
+
+h1 {
+font-weight: bold;
+font-family: sans-serif;
+font-size: 32px;
+text-transform: uppercase;
+color: rgb(10,61,110);
+text-align: center;
+}
+
+h2 {
+font-weight: lighter;
+font-family: sans-serif;
+font-size: 32px;
+text-transform: uppercase;
+text-decoration: underline;
+color: rgb(10, 61, 110);
+text-align:center;
+}
+
+@media(max-width:500px){
+	.container{width: 400px;}
+}
+
+@media(max-width: 760px){
+	.container{width: 600px;}
+}
+
+/*Custom design with class*/
+.container{
+	width:800px;
+	margin:20px auto;
+}
+
+.img-circle{
+	border-radius: 60%;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;}	
+
